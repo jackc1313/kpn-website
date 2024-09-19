@@ -1,0 +1,19 @@
+body {
+    background-color: rgb(31, 31, 31);
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    margin: 50px 50px 100px 50px;
+}
+
+a {
+    color: yellowgreen;
+    text-decoration: none;
+}
+.useful-links {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
