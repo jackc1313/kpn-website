@@ -41,12 +41,20 @@ a {
 
 .overlay-text {
     position: absolute;
-    top: 50%; 
-    left: 50%; 
-    transform: translate(-50%, -50%); 
-    background-color: #000000; 
-    color: #fff; 
-    padding: 10px 20px; 
-    font-size: 20px; 
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    top: 1%;
+    left: 1%;
+    color: rgb(189, 244, 81);
+    font-family: 'Horizon', sans-serif;
+    font-size: 100px;
+    font-weight: 900; 
+    text-align: left;
+}
+
+#white-text {
+    color: white;
 }
