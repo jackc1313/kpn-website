@@ -11,9 +11,42 @@ body {
 a {
     color: yellowgreen;
     text-decoration: none;
+    font-family: 'Horizon', sans-serif;
+    font-weight: 700;
+    padding: 10px;
+    border-style: groove;
+    border-color: red;
+    border-radius: 5px;
 }
+.header-links {
+    margin-bottom: 70px;
+}
+
 .useful-links {
     list-style: none;
     display: flex;
     justify-content: space-around;
+}
+
+.home-picture img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.home-picture {
+    position: relative;
+    display: inline-block;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    background-color: #000000; 
+    color: #fff; 
+    padding: 10px 20px; 
+    font-size: 20px; 
+    text-align: center;
 }
