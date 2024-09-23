@@ -55,6 +55,12 @@ a {
     text-align: left;
 }
 
+@media (max-width: 600px) {
+    .overlay-text {
+      font-size: clamp(1rem, 5vw, 50px);
+    }
+}
+
 #white-text {
     color: white;
 }
