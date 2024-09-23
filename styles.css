@@ -6,6 +6,13 @@ body {
     display: flex;
     justify-content: center;
     margin: 50px 50px 100px 50px;
+    padding: 0%;
+}
+
+.header img{
+    max-width: 100%;
+    height: auto;
+    display: block;
 }
 
 a {
@@ -25,7 +32,18 @@ a {
 .useful-links {
     list-style: none;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
+}
+
+li {
+    margin: 15px; 
+ }
+
+@media (max-width: 600px) {
+    .useful-links a {
+      padding: 5px;
+    }
 }
 
 .home-picture img {
