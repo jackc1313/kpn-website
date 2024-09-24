@@ -27,25 +27,19 @@ a {
 }
 .header-links {
     margin-bottom: 70px;
+    display: flex;
+    justify-content: space-between;
 }
 
-.useful-links {
-    list-style: none;
+.left-links, 
+.right-links {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
 }
 
 li {
     margin: 15px; 
+    list-style: none;
  }
-
-@media (max-width: 600px) {
-    .useful-links a {
-      padding: 5px;
-    }
-}
-
 .home-picture img {
     max-width: 100%;
     height: auto;
@@ -73,12 +67,20 @@ li {
     text-align: left;
 }
 
+#white-text {
+    color: white;
+}
+
 @media (max-width: 600px) {
     .overlay-text {
       font-size: clamp(1rem, 5vw, 50px);
     }
-}
-
-#white-text {
-    color: white;
+    .header-links a {
+        padding: 5px;
+        font-size: 8px;
+    }
+    li {
+        margin: 2px;
+    }
+    }
 }
