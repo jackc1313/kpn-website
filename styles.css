@@ -28,7 +28,7 @@ a {
 .header-links {
     margin-bottom: 70px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .left-links, 
