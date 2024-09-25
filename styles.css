@@ -15,7 +15,7 @@ body {
     display: block;
 }
 
-a {
+.header-links a {
     color: yellowgreen;
     text-decoration: none;
     font-family: 'Horizon', sans-serif;
@@ -69,6 +69,44 @@ li {
 
 #white-text {
     color: white;
+}
+
+h1,
+p,
+h2 {
+    text-align: center;
+    font-family: 'Horizon', sans-serif;
+}
+
+h1 {
+    color: rgb(189, 244, 81);
+    font-size: 100px;
+}
+
+p {
+    color: white;
+    font-size: 40px;
+    margin: 50px 100px;
+}
+
+h2 {
+    color: rgb(189, 244, 81);
+}
+
+footer {
+    background-color: rgb(189, 244, 81) ;
+    color: black;
+    font-family: 'Horizon', sans-serif;
+    font-weight: 100;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+#instagram-logo,
+#gmail-logo {
+    width: 50px;
+    height: auto;
 }
 
 @media (max-width: 600px) {
