@@ -116,6 +116,7 @@ p {
     border-style: groove;
     border-color: red;
     border-radius: 15px;
+    cursor: pointer;
 }
 
 h2 {
