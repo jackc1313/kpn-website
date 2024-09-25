@@ -83,10 +83,39 @@ h1 {
     font-size: 100px;
 }
 
+.paragraph-container {
+    display: flex;
+}
+
+#left-sidebar,
+#right-sidebar {
+    padding: 20px;
+    background-color: rgb(189, 244, 81);
+}
+
 p {
     color: white;
     font-size: 40px;
-    margin: 50px 100px;
+    margin: 50px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+#register-button {
+    color: yellowgreen;
+    background-color: red;
+    font-family: 'Horizon', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    text-shadow: -1px 1px 0px black;
+    padding: 10px;
+    border-style: groove;
+    border-color: red;
+    border-radius: 15px;
 }
 
 h2 {
@@ -117,7 +146,11 @@ footer {
       font-size: clamp(1rem, 5vw, 50px);
     }
     p {
-        margin: 30px;
+        margin: 20px;
+    }
+    #left-sidebar,
+    #right-sidebar {
+        padding: 10px;
     }
     .header-links a {
         padding: 5px;
@@ -125,5 +158,8 @@ footer {
     }
     li {
         margin: 2px;
+    }
+    #register-button {
+        font-size: 15px;
     }
 }
