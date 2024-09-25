@@ -113,6 +113,7 @@ p {
     font-weight: 700;
     text-shadow: -1px 1px 0px black;
     padding: 10px;
+    margin: 20px;
     border-style: groove;
     border-color: red;
     border-radius: 15px;
@@ -121,6 +122,8 @@ p {
 
 h2 {
     color: rgb(189, 244, 81);
+    margin: 20px;
+    margin-bottom: 40px;
 }
 
 footer {
