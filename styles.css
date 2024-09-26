@@ -106,7 +106,7 @@ p {
 }
 
 #register-button {
-    color: yellowgreen;
+    color: white;
     background-color: red;
     font-family: 'Horizon', sans-serif;
     font-size: 50px;
@@ -116,7 +116,7 @@ p {
     margin: 20px;
     border-style: groove;
     border-color: red;
-    border-radius: 15px;
+    border-radius: 5px;
     cursor: pointer;
 }
 
